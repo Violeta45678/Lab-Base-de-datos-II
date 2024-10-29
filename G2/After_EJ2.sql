@@ -1,5 +1,5 @@
 
--- modificaciones necesarias
+-- Modificaciones necesarias
 ALTER TABLE Pasajero
 ADD FechaUltimaVisita date;
 go
