@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+INSERT INTO Itinerario (idSalida, idRegreso)
+VALUES (3, 4);
+COMMIT TRANSACTION;
+
+SELECT * FROM Itinerario;
